@@ -27,6 +27,6 @@ public class HomeController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String ipaddress() throws Exception {
-        return "Reply: " + welcome + ',h1>Allah Birdir</h1>';
+        return "Reply: " + welcome + " <h1>Allah Birdir</h1>";
     }
 }
